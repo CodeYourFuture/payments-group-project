@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Button from './Button';
 import './CalcPayment.css';
 
-class Payment extends Component {
+class calcPayment extends Component {
   constructor() {
     super()
     this.state = {
@@ -37,4 +37,4 @@ class Payment extends Component {
 	}
 }
 
-export default Payment;
+export default calcPayment;
